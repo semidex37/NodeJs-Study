@@ -1,0 +1,21 @@
+doctype
+html
+    head
+        title Index Page
+        style
+            * { margin: 0; padding: 0; }
+            h1 {
+                color: red;
+            }
+        script(src="http://code.jquery.com/jquery-1.10.2.js")
+        script
+            $(document).ready(function() {
+                var alpha = 10;
+            });
+    body
+        // JADE String
+        #header
+            h1 Heelo jade .. !
+            h2 Lorem ipsum
+        hr.article
+        a(href="http://hanb.co.kr", data-test="multiple Attribute") Go To Hanbit Media
